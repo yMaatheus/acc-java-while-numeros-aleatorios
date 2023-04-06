@@ -2,13 +2,21 @@ package com.trybe.acc.java.numerosaleatorios;
 
 import java.util.Random;
 
+/**
+ * Class NumerosAleatorios.
+ */
 public class NumerosAleatorios {
   /**
    * Método principal para a execuçao do código.
    * 
    */
   public static void main(String[] args) {
-    // Seu código vai aqui
+    int lastValue = 0;
+
+    while (lastValue != 4) {
+      lastValue = numeroAleatorio();
+      imprime(lastValue);
+    }
   }
 
   // Chame a função escrevendo `imprime()`.
